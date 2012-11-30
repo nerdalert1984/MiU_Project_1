@@ -1,31 +1,242 @@
-// Matt Ballert
-// VFW 1211
-// JSON for Week 4
-
 var json = {
 	"game1": {
-		"yourname": ["Your Name", "Matt Ballert"]
-		"email": ["Email Adress","nerdalert1984@fullsail.edu"]
-		"comname": ["Company Name","KoP Games"]
-		"comsite": ["Company Website","www.kop.com"]
-		"gname": ["Game Name","The Game"]
-		"clink": ["Crowdfunding Link","www.kickstarter.com"]
-		"estdate": ["Estimated Release Date","12/03/2012"]
-		"howhear": ["How did you hear about us?","Facebook"]
-		"firstgame": ["Is this your first game?", "Yes"]
-		"platform": ["Platform","Video Game"]
+		"yourname": ["Your Name", "Matt Ballert"],
+		"email": ["Email Adress", "nerdalert1984@fullsail.edu"],
+		"comname": ["Company Name","KoP Games"],
+		"comsite": ["Company Website","www.kop.com"],
+		"gname": ["Game Name", "The Game"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "12/03/2012"],
+		"howhear": ["How did you hear about us?", "Facebook"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Video Game"]
 	},
 	"game2": {
-		"yourname": ["Your Name", "Pat Stephens"]
-		"email": ["Email Adress","pds271@fullsail.edu"]
-		"comname": ["Company Name","Startup Gamers"]
-		"comsite": ["Company Website","www.startup-gamers.com"]
-		"gname": ["Game Name","Indie Game"]
-		"clink": ["Crowdfunding Link","www.kickstarter.com"]
-		"estdate": ["Estimated Release Date","04/15/2012"]
-		"howhear": ["How did you hear about us?","Twitter"]
-		"firstgame": ["Is this your first game?", "No"]
-		"platform": ["Platform","Tabletop"]
+		"yourname": ["Your Name", "Pat Stephens"],
+		"email": ["Email Adress", "pds271@fullsail.edu"],
+		"comname": ["Company Name", "Startup Gamers"],
+		"comsite": ["Company Website", "www.startup-gamers.com"],
+		"gname": ["Game Name", "Indie Game"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "04/15/2012"],
+		"howhear": ["How did you hear about us?", "Twitter"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game3": {
+		"yourname": ["Your Name", "Mike Stephens"],
+		"email": ["Email Adress", "mike@stephens.com"],
+		"comname": ["Company Name", "Startup Gamers"],
+		"comsite": ["Company Website", "www.startup-gamers.com"],
+		"gname": ["Game Name", "Kid's Quest"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "08/23/2013"],
+		"howhear": ["How did you hear about us?", "Other"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Video Game"]
+	},
+	"game4": {
+		"yourname": ["Your Name", "Dylan Flynn"],
+		"email": ["Email Adress", "dylnn@gmail.com"],
+		"comname": ["Company Name", "Indie What?"],
+		"comsite": ["Company Website", "www.indiewhat.com"],
+		"gname": ["Game Name", "Freelancers"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "03/19/2013"],
+		"howhear": ["How did you hear about us?", "Twitter"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game5": {
+		"yourname": ["Your Name", "Jaime Rockwood"],
+		"email": ["Email Adress", "jaimerock@rockwoman.com"],
+		"comname": ["Company Name", "Rockwood Industries"],
+		"comsite": ["Company Website", "www.rockIND.com"],
+		"gname": ["Game Name", "Laundry Day"],
+		"clink": ["Crowdfunding Link", "www.indiegogo.com"],
+		"estdate": ["Estimated Release Date", "04/15/2012"],
+		"howhear": ["How did you hear about us?", "Google+"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Video Game"]
+	},
+	"game6": {
+		"yourname": ["Your Name", "Hunter Ballert"],
+		"email": ["Email Adress", "hunpar@gmail.com"],
+		"comname": ["Company Name", "KoP Games"],
+		"comsite": ["Company Website", "www.kop.com"],
+		"gname": ["Game Name", "Adventure World"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "10/05/2013"],
+		"howhear": ["How did you hear about us?", "Other"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game7": {
+		"yourname": ["Your Name", "Jonathan Rockwood"],
+		"email": ["Email Adress", "jrock@rockwoman.com"],
+		"comname": ["Company Name", "Rockwood Industries"],
+		"comsite": ["Company Website", "www.rockIND.com"],
+		"gname": ["Game Name", "Chaos Lord"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "06/15/2013"],
+		"howhear": ["How did you hear about us?", "Twitter"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game8": {
+		"yourname": ["Your Name", "Sam Ballert"],
+		"email": ["Email Adress", "senormomo@yahoo.com"],
+		"comname": ["Company Name", "KoP Games"],
+		"comsite": ["Company Website", "www.kop.com"],
+		"gname": ["Game Name", "Eat Mo' Pie: The Game"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "04/23/2012"],
+		"howhear": ["How did you hear about us?", "Google+"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Video Game"]
+	},
+	"game9": {
+		"yourname": ["Your Name", "Tim Wojcik"],
+		"email": ["Email Adress", "tim@wojcik.edu"],
+		"comname": ["Company Name", "Startup Gamers"],
+		"comsite": ["Company Website", "www.startup-gamers.com"],
+		"gname": ["Game Name", "Death to Apples"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "08/17/2014"],
+		"howhear": ["How did you hear about us?", "Twitter"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Video Game"]
+	},
+	"game10": {
+		"yourname": ["Your Name", "Pat Stephens"],
+		"email": ["Email Adress", "pds271@fullsail.edu"],
+		"comname": ["Company Name", "Startup Gamers"],
+		"comsite": ["Company Website", "www.startup-gamers.com"],
+		"gname": ["Game Name", "Indie Game: The Next Vol"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "04/15/2016"],
+		"howhear": ["How did you hear about us?", "Twitter"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game11": {
+		"yourname": ["Your Name", "Vince Guybro"],
+		"email": ["Email Adress", "vince@exist.com"],
+		"comname": ["Company Name", "Fake Company"],
+		"comsite": ["Company Website", "www.fakesite.com"],
+		"gname": ["Game Name", "Am I Real?"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "01/03/2013"],
+		"howhear": ["How did you hear about us?", "Google+"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Video Game"]
+	},
+	"game12": {
+		"yourname": ["Your Name", "Dan Bailey"],
+		"email": ["Email Adress", "dan@emt.com"],
+		"comname": ["Company Name", "EMT Studios"],
+		"comsite": ["Company Website", "www.studioEMT.com"],
+		"gname": ["Game Name", "CPR: The Game"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "02/12/2013"],
+		"howhear": ["How did you hear about us?", "Facebook"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game13": {
+		"yourname": ["Your Name", "Pat Cox"],
+		"email": ["Email Adress", "pcox@sell.com"],
+		"comname": ["Company Name", "Sellers"],
+		"comsite": ["Company Website", "www.sellers.com"],
+		"gname": ["Game Name", "Sell More Stuff"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "09/15/2015"],
+		"howhear": ["How did you hear about us?", "Other"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Video Game"]
+	},
+	"game14": {
+		"yourname": ["Your Name", "Dave Ballert"],
+		"email": ["Email Adress", "dballert@comcast.net"],
+		"comname": ["Company Name", "KoP Games"],
+		"comsite": ["Company Website", "www.kop.com"],
+		"gname": ["Game Name", "Lord Word"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "07/17/2013"],
+		"howhear": ["How did you hear about us?", "Facebook"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game15": {
+		"yourname": ["Your Name", "Maurice Meow"],
+		"email": ["Email Adress", "momo@cat.com"],
+		"comname": ["Company Name", "KoP Games"],
+		"comsite": ["Company Website", "www.kop.com"],
+		"gname": ["Game Name", "Meow"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "04/16/2012"],
+		"howhear": ["How did you hear about us?", "Other"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Video Game"]
+	},
+	"game16": {
+		"yourname": ["Your Name", "Steve Dave"],
+		"email": ["Email Adress", "steve@dave.com"],
+		"comname": ["Company Name", "Comic Shop Games"],
+		"comsite": ["Company Website", "www.comicgamers.com"],
+		"gname": ["Game Name", "Tell Em"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "10/20/1995"],
+		"howhear": ["How did you hear about us?", "Twitter"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game17": {
+		"yourname": ["Your Name", "Pat Stephens"],
+		"email": ["Email Adress", "pds271@fullsail.edu"],
+		"comname": ["Company Name", "Startup Gamers"],
+		"comsite": ["Company Website", "www.startup-gamers.com"],
+		"gname": ["Game Name", "Orginal Idea"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "04/11/2017"],
+		"howhear": ["How did you hear about us?", "Twitter"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Video Game"]
+	},
+	"game18": {
+		"yourname": ["Your Name", "Matt Ballert"],
+		"email": ["Email Adress", "nerdalert1984@fullsail.edu"],
+		"comname": ["Company Name","KoP Games"],
+		"comsite": ["Company Website","www.kop.com"],
+		"gname": ["Game Name", "Week 1"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "12/03/2013"],
+		"howhear": ["How did you hear about us?", "Facebook"],
+		"firstgame": ["Is this your first game?", "No"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game19": {
+		"yourname": ["Your Name", "Abby Rockwood"],
+		"email": ["Email Adress", "arock@rockwoman.com"],
+		"comname": ["Company Name", "Rockwood Industries"],
+		"comsite": ["Company Website", "www.rockIND.com"],
+		"gname": ["Game Name", "Smart Stuff"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "02/15/2013"],
+		"howhear": ["How did you hear about us?", "Twitter"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Tabletop"]
+	},
+	"game20": {
+		"yourname": ["Your Name", "Sarah Rockwood"],
+		"email": ["Email Adress", "srock@rockwoman.com"],
+		"comname": ["Company Name", "Rockwood Industries"],
+		"comsite": ["Company Website", "www.rockIND.com"],
+		"gname": ["Game Name", "Handspring Rambo"],
+		"clink": ["Crowdfunding Link", "www.kickstarter.com"],
+		"estdate": ["Estimated Release Date", "09/27/2013"],
+		"howhear": ["How did you hear about us?", "Twitter"],
+		"firstgame": ["Is this your first game?", "Yes"],
+		"platform": ["Platform", "Video Game"]
 	}
-
-}
+};

@@ -5,24 +5,28 @@ CSS for Project Week 2
 */
 
 body {
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
 h1 {
+	background-color: #ffffff;
+	text-align: center;
+	
+}
+h2 {
+	background-color: #ffffff;
+	text-align: center;
+	
+}
+h3 {
+	background-color: #ffffff;
 	text-align: center;
 	
 }
 
-h2 {
-	background-color: #000000;
-	color: #ffffff;
-	font-style: italic;
-	text-shadow: 0 0 0.2em #dc143c, 0 0 0.2em #dc143c, 0 0 0.2em #dc143c; 
-}
-
 p {
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #D1D1D1;
+	color: #000000;
 }
 
 /* HTML Tag 8 */
@@ -35,3 +39,6 @@ a:visited {
 	color: #ffffff;
 }
 
+div {
+	background-color: #D1D1D1;
+}

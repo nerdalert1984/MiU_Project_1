@@ -27,10 +27,10 @@ window.addEventListener("DOMContentLoaded", function () {
 	}
 	
 	function getSelectedRadio(){
-		var radio = document.forms[0].isfirst;
+		var radios = document.forms[0].isfirst;
 		for(var i = 0; i<radios.length; i++){
-			if(radio[i].checked){
-			firstValue = radio[i].value;
+			if(radios[i].checked){
+			firstValue = radios[i].value;
 			}
 		}
 	}
